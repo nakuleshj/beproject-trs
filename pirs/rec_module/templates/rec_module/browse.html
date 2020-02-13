@@ -1,0 +1,319 @@
+<html>
+<head>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+
+  <title>Browse Petitions </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleb.css">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>P.I.R.S.</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script>
+				$(document).ready(function(){
+  					$("#11").click(function(){
+    				$("#b2-res").show();
+					$("#b1-res").hide();
+					$("#11msg").show();
+					$("#b2").show();
+					$("#s").val("winter");
+  					});
+					$("#12").click(function(){
+    				$("#b2-res").show();
+					$("#b1-res").hide();
+					$("#12msg").show();
+					$("#b2").show();
+					$("#s").val("summer");
+  					});
+					$("#13").click(function(){
+    				$("#b2-res").show();
+					$("#b1-res").hide();
+					$("#13msg").show();
+					$("#b2").show();
+					$("#s").val("monsoon");
+  					});
+					$("#21").click(function(){
+    				$("#b3-res").show();
+					$("#b2-res").hide();
+					$("#21msg").show();
+					$("#b3").show();
+					$("#g").val("family");
+  					});
+					$("#22").click(function(){
+    				$("#b3-res").show();
+					$("#b2-res").hide();
+					$("#22msg").show();
+					$("#b3").show();
+					$("#g").val("friends");
+  					});
+					$("#23").click(function(){
+    				$("#b3-res").show();
+					$("#b2-res").hide();
+					$("#23msg").show();
+					$("#b3").show();
+					$("#g").val("romantic");
+  					});
+					$("#24").click(function(){
+    				$("#b3-res").show();
+					$("#b2-res").hide();
+					$("#24msg").show();
+					$("#b3").show();
+					$("#g").val("solo");
+					});
+					$("#y").click(function(){
+    				$("#b4-res").show();
+					$("#b3-res").hide();
+					$("#ymsg").show();
+					$("#b4").show();
+  					});
+					$("#41").click(function(){
+    				$("#b5-res").show();
+					$("#b4-res").hide();
+					$("#41msg").show();
+					$("#b5").show();
+					$("#p").val("beaches");
+					});
+					$("#42").click(function(){
+    				$("#b5-res").show();
+					$("#b4-res").hide();
+					$("#42msg").show();
+					$("#b5").show();
+					$("#p").val("mountains");
+  					});
+					$("#51").click(function(){
+					$("#b5-res").hide();
+					$("#51msg").show();
+					$("#sub").show();
+					$("#i").val("adventure");
+					});
+					$("#52").click(function(){
+					$("#b5-res").hide();
+					$("#52msg").show();
+					$("#sub").show();
+					$("#i").val("sightseeing");
+					});
+					$("#sub").click(function(){
+					$("#sub").hide();
+					});
+				});
+		</script>
+		<style>
+				body{
+					background: #c4c1c1;
+				}
+				.rectangle {
+					height: 500px;
+					width: inherit;
+					border-color:black;
+					border-width: medium;
+					background-color: white;
+					padding:0px;
+					overflow: scroll;
+					overflow-x: hidden;
+				}
+				.message-bot{
+					border-radius: 60px;
+					padding: 5px 10px;
+					margin:3px 5px;
+					width:fit-content;
+					font-family: 'Open Sans', sans-serif;
+					border: 2px solid #c9c9c9;
+					background-color: #c9c9c9;
+					display:inline-block;
+					margin-right:50px;
+				}
+				.message-user{
+					border-radius: 60px;
+					padding: 5px 10px;
+					margin:3px 5px;
+					float:right;
+					width:fit-content;
+					font-family: 'Open Sans', sans-serif;
+					color: black;
+					border: 2px solid #f7a91a;
+					background-color: #f7a91a ;
+				}
+				input:focus{
+					outline:none;
+				}
+				.chat-head{
+					margin-top: 60px;
+					width: inherit;
+					color:black;
+					font-size:35px;
+					margin:0px;
+					background: #f7a91a;
+					padding:10px;
+					font-weight: bold;
+					font-family: 'Syncopate', sans-serif;
+					text-align: center;
+				}
+				.input-area{
+					background-color: white;
+    				bottom: 0;
+    				left: 0;
+					width:inherit;
+					padding: 0px;
+					
+				}
+				.clr{
+					clear: both;
+				}
+				.optn{
+					width:fit-content;
+					border-radius: 60px;
+					font-family: 'Open Sans', sans-serif;
+					padding:8px;
+					margin:5px 5px;
+					background-color: white;
+					border: 2px solid #f7a91a;
+					color: #f7a91a ;
+
+				}
+				.optn:hover{
+					color: black;
+					border: 2px solid #f7a91a;
+					background-color: #f7a91a ;
+					text-decoration: none;
+				}
+				button:focus{
+					outline: none;
+				}
+				/* width */
+				::-webkit-scrollbar {
+				width: 10px;
+				}
+				/* Track */
+				::-webkit-scrollbar-track {
+				background: #f1f1f1; 
+				}
+				/* Handle */
+				::-webkit-scrollbar-thumb {
+				background: #888; 
+				}
+				/* Handle on hover */
+				::-webkit-scrollbar-thumb:hover {
+				background: #555; 
+				}
+			</style>
+      </head>
+
+      <body>
+        <center>
+        <ul class="topnav">
+          <li>
+            <a class="active" href="home.html#home">HOME</a>
+          </li>
+          <li>
+            <a href="home.html#About">ABOUT</a>
+          </li>
+
+        </ul>
+        </center>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg"></div>
+          <div class="col-lg">
+            <div class="chat-head">
+              P.I.R.S.
+            </div>
+          <div class="rectangle">
+            <p class="message-bot">
+              I'm PIRS bot & I'm here to assist you in travel planning<br>To get started Enter desired season of travel
+            </p>
+            <div class="usr">
+                <p class="message-user" id="11msg" style="display: none">Winter</p>
+                <p class="message-user" id="12msg" style="display: none">Summer</p>
+                <p class="message-user" id="13msg" style="display: none">Monsoon</p>
+            </div>
+              <p class="message-bot" style="display: none" id="b2">
+              Great! Now I need to know who you're going with
+              </p>
+              <div class="usr">
+                  <p class="message-user" id="21msg" style="display: none">Family</p>
+                  <p class="message-user" id="22msg" style="display: none">Friends</p>
+                  <p class="message-user" id="23msg" style="display: none">Romantic</p>
+                  <p class="message-user" id="24msg" style="display: none">Solo</p>
+              </div>
+  
+              <p class="message-bot" style="display: none" id="b3">
+              Wish to enter additional preferences to improve recommendations?
+              </p>
+              <div class="usr">
+                  <p class="message-user" id="ymsg" style="display: none">Sure</p>
+                  <p class="message-user" id="nmsg" style="display: none">Nope</p>
+              </div><div class="clr"></div>
+              <p class="message-bot" style="display: none" id="b4">
+              Do you prefer?
+              </p>
+              <div class="usr">
+                  <p class="message-user" id="41msg" style="display: none">Beaches</p>
+                  <p class="message-user" id="42msg" style="display: none">Mountains</p>
+              </div><div class="clr"></div>
+              
+              <p class="message-bot" style="display: none" id="b5">
+              May I know the purpose of your visit?
+              </p>
+              <div class="usr">
+                  <p class="message-user" id="51msg" style="display: none">Adventure</p>
+                  <p class="message-user" id="52msg" style="display: none">Sightseeing</p>
+              </div><div class="clr"></div>
+              {% block rec_message %}{% endblock %}
+              <!----<p class="message-bot" style="display: none" id="end">
+                  Wait for recommendation.......
+              </p>-->
+            </div><div class="clr"></div>
+            <div class="input-area">
+              <form method="post" action="get_rec">
+              {% csrf_token %}
+                <input type="hidden" name="season" id="s" value="" />
+                <input type="hidden" name="going_with" id="g" value="" />
+                <input type="hidden" name="pref" id="p" value="beaches,mountains" />
+                <input type="hidden" name="interest" id="i" value="adventure,sightseeing" />
+              <div id="b1-res">
+                <button type="button" class="optn" id="11" name="season">Winter</button>
+                <button type="button" class="optn" id="12" name="season">Summer</button>
+                <button type="button" class="optn" id="13" name="season">Monsoon</button>
+              </div>
+              <div style="display: none" id="b2-res">
+                    <button type="button" class="optn" id="21" name="going_with">Family</button>
+                    <button type="button" class="optn" id="22" name="going_with">Friends</button>
+                    <button type="button" class="optn" id="23" name="going_with">Romantic</button>
+                    <button type="button" class="optn" id="24" name="going_with">Solo</button>
+              </div>
+              <div style="display: none" id="b3-res">
+                  <button type="button" class="optn" id="y">Sure!</a>
+                  <button type="submit" class="optn" id="n">Nope</a>
+              </div>
+              <div style="display: none" id="b4-res">
+                  <button type="button" class="optn" id="41" name="pref">Beaches</button>
+                  <button type="button" class="optn" id="42" name="pref">Mountains</button>
+              </div>
+              <div style="display: none" id="b5-res">
+                  <button type="button" class="optn" id="51" name="interest">Adventure</button>
+                  <button type="button" class="optn" id="52" name="interest" >Sightseeing</button>
+              </div>
+              <div style="display: none" id="sub">
+                  <button type="submit" class="optn">Get Recommendation</button>
+              </div>
+              </form>
+              <!---<button type="button" class="optn">pick me</button>---><br>
+            </div>
+          </div>
+          <div class="col-lg"></div>
+        </div>
+
+
+
+  </body>
+</head>
+</html>

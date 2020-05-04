@@ -1,0 +1,105 @@
+.rectangle {
+    height: 500px;
+    width: inherit;
+    border-color:black;
+    border-width: medium;
+    background-color: white;
+    padding:0px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.message-bot{
+    border-radius: 60px;
+    padding: 10px 10px;
+    margin:3px 5px;
+    width:fit-content;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #c9c9c9;
+    background-color: #c9c9c9;
+    display:inline-block;
+    margin-right:50px;
+}
+.plcs{
+    border-radius: 6px;
+    padding: 10px 10px;
+    margin:3px 5px;
+    width:fit-content;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #c9c9c9;
+    background-color: #c9c9c9;
+    display:inline-block;
+    margin-right:50px;
+}
+.message-user{
+    border-radius: 60px;
+    padding: 5px 10px;
+    margin:3px 5px;
+    float:right;
+    width:fit-content;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    border: 2px solid #f7a91a;
+    background-color: #f7a91a ;
+}
+input:focus{
+    outline:none;
+}
+.chat-head{
+    margin-top: 60px;
+    width: inherit;
+    color:black;
+    font-size:35px;
+    margin:0px;
+    background: #f7a91a;
+    padding:10px;
+    font-weight: bold;
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
+}
+.input-area{
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    width:inherit;
+    padding: 0px;
+    
+}
+.clr{
+    clear: both;
+}
+.optn{
+    width:fit-content;
+    border-radius: 60px;
+    font-family: 'Open Sans', sans-serif;
+    padding:8px;
+    margin:5px 5px;
+    background-color: white;
+    border: 2px solid #f7a91a;
+    color: #f7a91a ;
+
+}
+.optn:hover{
+    color: black;
+    border: 2px solid #f7a91a;
+    background-color: #f7a91a ;
+    text-decoration: none;
+}
+button:focus{
+    outline: none;
+}
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}

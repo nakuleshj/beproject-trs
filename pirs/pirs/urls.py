@@ -15,10 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from rest_framework.urlpatterns import format_suffix_patterns
+from django.conf import settings
+from django.conf.urls.static import static
 from rec_module import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.chat, name='chat'),
+    path('', views.index, name='index'),
+    #path('chat', views.chat, name='chat'),
     path('get_rec/', views.rec, name='recommender'),
+    path('itnr/', views.itnr, name='itnr'),
 ]
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL,
+                          document_root=settings.MEDIA_ROOT)

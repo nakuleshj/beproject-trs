@@ -1,0 +1,113 @@
+{% extends 'rec_module/base.html' %}
+{% block chat %}
+
+<div class="chat-head">
+    P.I.R.S.
+</div>
+<div class="rectangle">
+<div class="bot"><p class="message-bot">
+    I'm PIRS bot & I'm here to assist you in travel planning<br>To get started pick desired season of travel
+</p></div><div class="clr"></div>
+<div class="usr">
+        <p class="message-user" id="11msg" style="display: none">Winter</p>
+        <p class="message-user" id="12msg" style="display: none">Summer</p>
+        <p class="message-user" id="13msg" style="display: none">Monsoon</p>
+</div><div class="clr"></div>
+    <div class="bot"><p class="message-bot" style="display: none" id="b2">
+    Great! Now I need to know who you're going with
+    </p></div><div class="clr"></div>
+    <div class="usr">
+            <p class="message-user" id="21msg" style="display: none">Family</p>
+            <p class="message-user" id="22msg" style="display: none">Friends</p>
+            <p class="message-user" id="23msg" style="display: none">Romantic</p>
+            <p class="message-user" id="24msg" style="display: none">Solo</p>
+    </div>
+
+    <p class="message-bot" style="display: none" id="b3">
+    Wish to enter additional preferences to improve recommendations?
+    </p><div class="clr"></div>
+    <div class="usr">
+            <p class="message-user" id="ymsg" style="display: none">Sure</p>
+            <p class="message-user" id="nmsg" style="display: none">Nope</p>
+    </div><div class="clr"></div>
+    <p class="message-bot" style="display: none" id="b4">
+    Do you prefer?
+    </p><div class="clr"></div>
+    <div class="usr">
+            <p class="message-user" id="41msg" style="display: none">Beaches</p>
+            <p class="message-user" id="42msg" style="display: none">Mountains</p>
+    </div><div class="clr"></div>
+    
+    <p class="message-bot" style="display: none" id="b5">
+    What would you be interested in?
+    </p><div class="clr"></div>
+    <div class="usr">
+            <p class="message-user" id="51msg" style="display: none">Adventure</p>
+            <p class="message-user" id="52msg" style="display: none">Sightseeing</p>
+            <p class="message-user" id="53msg" style="display: none">Relaxation</p>
+    </div><div class="clr"></div>
+    <div id="places" style="display: none; border-radius:20px;">
+    <p class="message-bot">
+        Pick a place:</p>
+    <p class="plcs">
+        <img src="" height="200px" width="300px" id="i1"><br>
+        <span id="p1" style="text-align:center"></span><br>
+    </p><div class="clr"></div>
+
+        <p class="plcs">
+        <img src="" height="200px" width="300px" id="i2"><br>
+        <span id="p2" style="text-align:center"></span><br>
+    </p>
+        <p class="plcs">
+        <img src="" height="200px" width="300px" id="i3"><br>
+        <span id="p3" style="text-align:center"></span><br>
+    </p>
+        <p class="plcs">
+        <img src="" height="200px" width="300px" id="i4"><br>
+        <span id="p4" style="text-align:center"></span><br>
+    </p>
+        
+    <p class="plcs" style="display: none; border-radius:20px;" id="itnr">
+        <b>Itinerary for <span id="res" style="text-align:center"></span>:</b><br><br>
+        <span id="itnr_msg" style="text-align:left"></span><br>
+    </p>
+</div>
+</div>
+<div class="input-area" id="inp">
+    <form method="post" id="frm">
+    {% csrf_token %}
+        <input type="hidden" name="season" id="s" value="" />
+        <input type="hidden" name="going_with" id="g" value="" />
+        <input type="hidden" name="pref" id="p" value="beaches,mountains" />
+        <input type="hidden" name="interest" id="i" value="adventure,sightseeing,relaxation" />
+        <input type="hidden" name="interest" id="pl" value="" />
+    <div id="b1-res">
+        <button type="button" class="optn" id="11" name="season">Winter</button>
+        <button type="button" class="optn" id="12" name="season">Summer</button>
+        <button type="button" class="optn" id="13" name="season">Monsoon</button>
+    </div>
+    <div style="display: none" id="b2-res">
+                <button type="button" class="optn" id="21" name="going_with">Family</button>
+                <button type="button" class="optn" id="22" name="going_with">Friends</button>
+                <button type="button" class="optn" id="23" name="going_with">Romantic</button>
+                <button type="button" class="optn" id="24" name="going_with">Solo</button>
+    </div>
+    <div style="display: none" id="b3-res">
+            <button type="button" class="optn" id="y">Sure!</button>
+            <button type="button" class="optn np" id="n">Nope</button>
+    </div>
+    <div style="display: none" id="b4-res">
+            <button type="button" class="optn" id="41" name="pref">Beaches</button>
+            <button type="button" class="optn" id="42" name="pref">Mountains</button>
+    </div>
+    <div style="display: none" id="b5-res">
+            <button type="button" class="optn" id="51" name="interest">Adventure</button>
+            <button type="button" class="optn" id="52" name="interest" >Sightseeing</button>
+            <button type="button" class="optn" id="53" name="interest" >Relaxation</button>
+    </div>
+    <div style="display: none" id="sub">
+            <button type="button" class="optn">Get Recommendation</button>
+    </div>
+    </form>
+</div>
+{% endblock %}

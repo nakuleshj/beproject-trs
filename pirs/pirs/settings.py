@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
     'rec_module.apps.RecModuleConfig',
 ]
 
@@ -126,3 +125,7 @@ TEMPLATE_DIRS = (
 STATICFILES_DIRS = [
     os.path.join(os.path.dirname(__file__), "static"),
 ]
+STATIC_ROOT = os.path.join(os.path.dirname(__file__), "root")
+MEDIA_ROOT = os.path.join(os.path.dirname(__file__),'media')
+#print(os.path.join(os.path.dirname(__file__),'media'))
+MEDIA_URL = '/media/'

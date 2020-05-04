@@ -1,0 +1,101 @@
+$(document).ready(function(){
+    $("#11").click(function(){
+    $("#b2-res").show();
+$("#b1-res").hide();
+$("#11msg").show();
+$("#b2").show();
+$("#s").val("winter");
+    });
+$("#12").click(function(){
+    $("#b2-res").show();
+$("#b1-res").hide();
+$("#12msg").show();
+$("#b2").show();
+$("#s").val("summer");
+    });
+$("#13").click(function(){
+    $("#b2-res").show();
+$("#b1-res").hide();
+$("#13msg").show();
+$("#b2").show();
+$("#s").val("monsoon");
+    });
+$("#21").click(function(){
+    $("#b3-res").show();
+$("#b2-res").hide();
+$("#21msg").show();
+$("#b3").show();
+$("#g").val("family");
+    });
+$("#22").click(function(){
+    $("#b3-res").show();
+$("#b2-res").hide();
+$("#22msg").show();
+$("#b3").show();
+$("#g").val("friends");
+    });
+$("#23").click(function(){
+    $("#b3-res").show();
+$("#b2-res").hide();
+$("#23msg").show();
+$("#b3").show();
+$("#g").val("romantic");
+    });
+$("#24").click(function(){
+    $("#b3-res").show();
+$("#b2-res").hide();
+$("#24msg").show();
+$("#b3").show();
+$("#g").val("solo");
+});
+$("#y").click(function(){
+    $("#b4-res").show();
+$("#b3-res").hide();
+$("#ymsg").show();
+$("#b4").show();
+    });
+    $("#n").click(function(){
+    $("#b3-res").hide();
+    $("#nmsg").show();
+    $("#inp").hide();
+    });
+$("#41").click(function(){
+    $("#b5-res").show();
+$("#b4-res").hide();
+$("#41msg").show();
+$("#b5").show();
+$("#p").val("beaches");
+});
+$("#42").click(function(){
+    $("#b5-res").show();
+$("#b4-res").hide();
+$("#42msg").show();
+$("#b5").show();
+$("#p").val("mountains");
+    });
+$("#51").click(function(){
+$("#b5-res").hide();
+$("#51msg").show();
+$("#sub").show();
+$("#i").val("adventure");
+});
+$("#52").click(function(){
+$("#b5-res").hide();
+$("#52msg").show();
+$("#sub").show();
+$("#i").val("sightseeing");
+});
+$("#53").click(function(){
+$("#b5-res").hide();
+$("#53msg").show();
+$("#sub").show();
+$("#i").val("relaxation");
+});
+$(".plcs").click(function(){
+var res=$(this).children("span").text();
+$("#res").text(res);
+$("#result").show();
+
+});
+
+});

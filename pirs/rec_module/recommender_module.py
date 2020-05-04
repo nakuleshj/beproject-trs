@@ -1,28 +1,13 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel,cosine_similarity
+from django.contrib.staticfiles.storage import staticfiles_storage
 
-'''l=[]
-l.append(input("Enter season:").lower())
-c=input("Going with?\n1.Family\n2.Friends\n3.Romantic\n4.Solo\nEnter option number:\n")
-going_with=['family','friends','romantic','solo']
-bm=['beaches','mountains']
-interest=['adventure','sightseeing']
-l.append(going_with[int(c)-1])
-usr_tags = ','.join(l)
-if input("Wish to enter additional preferences to improve recommendations?\n Enter y/n:\n")=='y':
-    c=input("Do you prefer:\n1. Beaches\n2.Mountains\n")
-    l.append(bm[int(c)-1])
-    c=input("Enter purpose of your visit: 1.Adventure\n2.Sightseeing\n Enter option number:\n")
-    l.insert(1,interest[int(c)-1])
-else:
-    l.insert(1,'adventure,sightseeing')
-    l.insert(2,'beaches,mountains')         
-usr_tags = ','.join(l)
-print(usr_tags)
-#budget=input("Enter your approximate budget:")'''
+
 def rec_main(usr_tags):
-    ds = pd.read_csv("pirs_cbf.csv")
+    url = staticfiles_storage.path('rec_module/pirs_cbf.csv')
+    print(url)
+    ds = pd.read_csv(url)
     ds=ds.append({'name':'usr_input','tags':usr_tags},ignore_index=True)
     ds.drop(3)
     tf = TfidfVectorizer()
@@ -47,8 +32,8 @@ def rec_main(usr_tags):
         recs = results[name][:num]
         for rec in recs:
             #print("Recommended: " + item(rec[1]) + " (score:" + str(rec[0]) + ")")
-            l.append(str(rec[1]).capitalize())
+            l.append(str(rec[1]))
         return l
-    list=recommend(name='usr_input', num=3)
+    list=recommend(name='usr_input', num=5)
     return list
 #rec_main(usr_tags)

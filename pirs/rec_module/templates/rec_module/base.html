@@ -1,0 +1,153 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+	<head>
+			<link href="https://fonts.googleapis.com/css?family=Syncopate&display=swap" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>P.I.R.S.</title>
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+		<link rel="icon" href="{% static 'rec_module/icon.png' %}" type="image/icon type">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" type="text/css" href="{% static 'rec_module/style.css' %}">
+			<link rel="stylesheet" type="text/css" href="{% static 'rec_module/chatbot.css' %}">
+			<script src="{% static 'rec_module/chat.js' %}"></script>
+			<script src="{% static 'rec_module/ajx.js' %}"></script>
+			</head>
+			<body>
+					<div id="myModal" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+						
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-body">
+									
+										{% block chat %}
+										{% endblock %}
+									</div>
+									<div class="modal-footer" style="display: none;" id='mdftr'>
+										<button type="button" class="btn btn-warning" data-dismiss="modal" style=" background: #f7a91a" onClick="window.location.reload();">Close</button>
+									</div>
+								</div>
+						
+							</div>
+						</div>
+				<ul class="topnav">
+					<li>
+						<a class="active" href="">HOME</a>
+					</li>
+					<li>
+					
+						<a href="{% url 'index'%}#abt">ABOUT</a>
+					</li>
+					<li>
+						<a href="" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false"> CUSTOMIZE MY TOUR</a>
+					</li>
+
+
+
+
+					<style>
+					.ftr{
+						color:white;
+						margin: 0px;
+					}
+					</style>
+
+
+
+
+
+				<img src="{% static 'rec_module/india.png' %}" class="img1" alt="No image" width="100%" >
+
+                <center>
+
+
+					<section class="sec2">
+                    <div class="background">
+						<div class="left">
+							<div style="margin-top:130px; margin-left:50px;margin-bottom: 0px;">
+
+								<h1 style="font-size:40px;" id="abt">
+
+         WHY PERSONALIZED ITINERARY RECOMMENDATION SYSTEM?</h1>
+								<p style="font-size:25px;">
+
+									The hassle of deciding on a travel destination is often overlooked by travel websites. Travellers, a lot of times, don’t have a clear idea of where they want to travel to.We aim on solving
+
+			 this problem by introducing a chat bot system that can recommend travel destinations based
+			 on minimal information from the traveller. Another interesting feature of the project is its
+			 itinerary generator.The system aims on providing a human-like user experience through the
+			 use of a chat bot interface.Sit back and relax, your customized tour is just a few clicks away!
+			  </p>
+				<br />
+				<br />
+
+
+
+
+
+	<h1 style="font-size:40px;">
+
+	3 STEP CUSTOMIZATION PROCESS:</h1>
+
+	<p style="font-size:25px;">
+	1. INPUT MINIMAL DETAILS </p>
+	<p style="font-size:25px;">
+	2. GET RECOMMENDED DESTINATIONS</p>
+	<p style="font-size:25px;">
+	3. GET PERSONALIZED ITINERARIES FOR THE DESIRED DESTINATION </p>
+
+
+
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="right1">
+                            <a name="About">
+							<img src="{% static 'rec_module/travel3.jpg' %}" style="border-radius:50%; margin-top:110px;" alt="no image" class="what" />
+
+                            </a>
+						</div>
+
+
+						<div class="right2">
+														<a name="About">
+							<img src="{% static 'rec_module/check.png' %}" style="border-radius:50%; margin-top:100px;" alt="no image" class="what" />
+
+														</a>
+						</div>
+
+
+
+
+</div>
+
+
+
+                </section>
+
+
+
+
+<div class="ftr">
+  <p align="center" style="font-size:25px;"> &copy; PERSONALIZED ITINERARY RECOMMENDATION SYSTEM </p>
+
+        <p align="center"> Developed and Maintained by</p>
+
+        <p> Nakulesh Jayakrishnan &nbsp;  &nbsp;  Akanksha Koshti &nbsp; &nbsp;   Gauri Deshpande  &nbsp;  </p>
+                </center>
+			</div>
+    </body>
+			</html>

@@ -1,0 +1,138 @@
+body {margin: 0;}
+
+
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#092B60 ;
+
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  font-family: 'Mali', cursive;
+  font-size: 20px;
+    display: block;
+    color:  #fcfcfc ;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+
+ul.topnav li a:hover:not(.active) {background-color: royalblue;}
+
+ul.topnav li a.active {background-color:  #111 ;}
+
+
+
+ul.topnav li.right {float: right;}
+
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+    img.img1
+    {
+
+
+    height: 590px;
+    }
+
+
+      p.wip{
+            color:white;
+            font-size:20px;
+         line-height: 1.5em;
+
+
+    }
+
+
+
+.sec2{
+font-family: 'Mali', cursive;
+        background:#fcfcfc;
+       height: fit-content;
+       padding-bottom: 100px;
+
+
+}
+
+
+
+    .left {
+        width: 50%;
+        float: left;
+    }
+
+    .right1 {
+        width: 50%;
+        float: left;
+    }
+
+    .what {
+      height: 500px;
+      width: 500px;
+      margin-left: 60px;
+    }
+
+    .why {
+      height: 200px;
+      width: 200px;
+      margin-left: 50px;
+      margin-top: 200px;
+      border-radius: 50%
+    }
+
+
+
+
+
+    .start {
+      font-family: 'Mali', cursive;
+       margin-left: 1px;
+        width: 33.33%;
+        float: left;
+    }
+    .mid{
+      font-family: 'Mali', cursive;
+        width: 33.33%;
+        float: left;
+    }
+
+    .end{
+      font-family: 'Mali', cursive;
+
+        width: 32.34%;
+        float: left;
+    }
+
+.ftr {
+  clear:both;
+  position: absolute;
+    margin-bottom: :0px;
+      background-color: #092B60;
+    color: #fcfcfc;
+  width: 100%;
+
+}
+
+.button {
+    background-color:#092B60 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

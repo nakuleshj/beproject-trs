@@ -1,0 +1,11 @@
+activity_name,pangong lake,khardung la,magnetic hill,royal leh palace,hemis national park,spituk monastery ,hall of fame,lachulung la,moonland,chadar trek
+pangong lake,0,207,202,200,159,200,201,406,189,198
+khardung la,207,0,143,106,154,122,117,401,109,108
+magnetic hill,202,143,0,36,68,25,25,316,35,35
+royal leh palace,200,106,36,0,48,16,11,295,3,2
+hemis national park,159,154,68,48,0,47,4,296,10,10
+spituk monastery ,200,122,25,16,47,0,5,299,15,15
+hall of fame,201,117,25,11,4,5,0,300,10,10
+lachulung la,406,401,316,295,296,299,300,0,293,293
+moonland,189,109,35,3,10,15,10,293,0,2
+chadar trek,198,108,35,2,10,15,10,293,2,0

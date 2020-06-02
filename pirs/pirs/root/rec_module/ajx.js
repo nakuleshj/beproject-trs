@@ -80,7 +80,9 @@ $(document).ready(function(){
                     },
             dataType: 'json',
             success: function (data) {
-            alert("Connected to itnr gen");
+                $('#itnr_msg').html(data.d);
+                $("#itnr").show();
+                $("#mdftr").show();
                     }
                 });
         });

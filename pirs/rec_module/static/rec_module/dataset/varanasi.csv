@@ -1,0 +1,9 @@
+activity_name,kashi vishwanath temple,dasaswamedh ghat,assi ghat,manikarnika ghat,chunar fort,tulsi manas temple ,ramnagar fort and museum ,alamgir mosque
+kashi vishwanath temple,0,2,15,5,67,15,22,11
+dasaswamedh ghat,2,0,13,6,66,13,20,12
+assi ghat,15,13,0,16,60,8,13,21
+manikarnika ghat,5,6,16,0,65,15,22,8
+chunar fort,67,66,60,65,0,54,56,75
+tulsi manas temple ,15,13,8,15,54,0,13,21
+ramnagar fort and museum ,22,20,13,22,56,13,0,27
+alamgir mosque,11,12,21,8,75,21,27,0

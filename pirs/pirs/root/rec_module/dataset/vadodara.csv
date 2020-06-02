@@ -1,0 +1,8 @@
+activity_name,laxmi vilas palace,sayaji garden,sardar patel planeterium ,kirti mandir,sur sagar lake,narmada canal,jamghoda wildlife sanctutary 
+laxmi vilas palace,0,19,6,6,6,40,101
+sayaji garden,19,0,18,17,16,31,99
+sardar patel planeterium ,6,18,0,5,7,38,109
+kirti mandir,6,17,5,0,5,37,109
+sur sagar lake,6,16,7,5,0,39,105
+narmada canal,40,31,38,37,39,0,86
+jamghoda wildlife sanctutary ,101,99,109,109,105,86,0

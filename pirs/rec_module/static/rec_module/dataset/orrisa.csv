@@ -1,0 +1,8 @@
+activity_name,udayagiri and khandagiri ,lingaraj temple ,rajarani temple,mukteswara temple,odisha state museum ,chilika lake,brahmeswara temple
+udayagiri and khandagiri ,0,15,18,19,14,146,19
+lingaraj temple ,15,0,7,5,7,131,9
+rajarani temple,18,7,0,4,6,132,5
+mukteswara temple,19,5,4,0,5,134,5
+odisha state museum ,14,7,6,5,0,132,5
+chilika lake,146,131,132,134,132,0,128
+brahmeswara temple,19,9,5,5,5,128,0

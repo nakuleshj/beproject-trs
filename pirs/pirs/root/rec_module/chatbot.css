@@ -29,6 +29,7 @@
     background-color: #c9c9c9;
     display:inline-block;
     margin-right:50px;
+    cursor: pointer;
 }
 .message-user{
     border-radius: 60px;

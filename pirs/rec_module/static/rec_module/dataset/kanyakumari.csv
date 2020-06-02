@@ -1,0 +1,10 @@
+activity_name,thirparappu falls,vivekananda rock memorial,thanumalayan temple,thiruvalluvar statue,bhagavatthy amman temple,kanyakumari beach,wax museum ,saguthurai beach,olakaruvi falls
+thirparappu falls,0,105,83,105,39,106,103,81,48
+vivekananda rock memorial,105,0,26,1,100,7,32,28,79
+thanumalayan temple,83,26,0,28,74,28,8,24,58
+thiruvalluvar statue,105,1,28,0,100,7,6,28,79
+bhagavatthy amman temple,39,100,74,100,0,101,98,75,40
+kanyakumari beach,106,7,28,7,101,0,6,34,83
+wax museum ,103,32,8,6,98,6,0,30,80
+saguthurai beach,81,28,24,28,75,34,30,0,55
+olakaruvi falls,48,79,58,79,40,83,80,55,0

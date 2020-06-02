@@ -1,0 +1,13 @@
+activity_name,shri aurobindo asharam ,rock beach,raj niwas ,basilica of the sacred heart of jesus,french soldiers memorial ,promenade beach,chunnambar boathouse,mahatma gandhi statue,serenity beach,statue of dupleix,pondicherry lighthouse,veerampattinam beach
+shri aurobindo asharam ,0,10,2,6,3,2,16,3,13,5,12,20
+rock beach,10,0,10,6,10,9,10,10,16,10,6,14
+raj niwas ,2,10,0,6,1,2,16,1,14,3,13,20
+basilica of the sacred heart of jesus,6,6,6,0,5,3,13,5,16,3,9,17
+french soldiers memorial ,3,10,1,5,0,1,15,1,14,2,12,19
+promenade beach,2,9,2,3,1,0,13,1,13,1,11,17
+chunnambar boathouse,16,10,16,13,15,13,0,15,23,13,15,11
+mahatma gandhi statue,3,10,1,5,1,1,15,0,14,2,12,19
+serenity beach,13,16,14,16,14,13,23,14,0,18,13,28
+statue of dupleix,5,10,3,3,2,1,13,2,18,0,12,18
+pondicherry lighthouse,12,6,13,9,12,11,15,12,13,12,0,19
+veerampattinam beach,20,14,20,17,19,17,11,19,28,18,19,0

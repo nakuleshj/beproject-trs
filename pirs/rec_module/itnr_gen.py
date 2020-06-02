@@ -6,10 +6,13 @@ def itnr_main(plc):
         urld = staticfiles_storage.path(s)
         data=pd.read_csv(urld)
         act=data['activity_name'].copy()
-        dur=int(len(act)/3)
+        if len(act)>=12:
+                dur=int(len(act)/3)
+        else:
+                dur=int(len(act)/2)
         data.drop('activity_name',axis=1,inplace=True)
         data=data.rename_axis('ID').values
-        ac = AgglomerativeClustering(n_clusters=dur, affinity='precomputed', linkage='complete')
+        ac = AgglomerativeClustering(n_clusters=dur, affinity='precomputed', linkage='average')
         clusters = ac.fit_predict(data)
         final_itnr={}
         for f in range(1,dur+1):

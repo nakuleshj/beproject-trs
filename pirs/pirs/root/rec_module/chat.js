@@ -95,6 +95,7 @@ $(".plcs").click(function(){
 var res=$(this).children("span").text();
 $("#res").text(res);
 $("#result").show();
+
 });
 
 });

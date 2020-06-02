@@ -1,0 +1,11 @@
+activity_name,gateway of india,victoria terminus,mandwa beach,nehru science centre,nehru planeterium ,priyadarshini park,colaba causeway,babulnath ,taraporewala aquarium ,snow world
+gateway of india,0,29,171,19,17,15,3,11,9,32
+victoria terminus,29,0,154,28,29,36,32,33,33,9
+mandwa beach,171,154,0,181,187,191,183,184,181,167
+nehru science centre,19,28,181,0,5,14,19,12,12,26
+nehru planeterium ,17,29,187,5,0,10,16,10,10,24
+priyadarshini park,15,36,191,14,10,0,13,7,7,29
+colaba causeway,3,32,183,19,16,13,0,12,11,35
+babulnath ,11,33,184,12,10,7,12,0,4,28
+taraporewala aquarium ,9,33,181,12,10,7,11,4,0,30
+snow world,32,9,167,26,24,29,35,28,30,0

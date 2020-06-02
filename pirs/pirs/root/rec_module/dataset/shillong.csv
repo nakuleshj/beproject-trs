@@ -1,0 +1,10 @@
+activity_name,umiam lake,elephant falls,shillong peak,don bosco museum ,mawsynram,diengiei peak,nohsngithiang falls,air force museum ,khasi hills
+umiam lake,0,44,63,27,30,55,180,42,96
+elephant falls,44,0,16,26,33,41,148,2,48
+shillong peak,63,16,0,42,56,63,170,17,72
+don bosco museum ,27,26,42,0,62,27,175,26,77
+mawsynram,30,33,56,62,0,79,155,33,61
+diengiei peak,55,41,63,27,79,0,190,40,93
+nohsngithiang falls,180,148,170,175,155,190,0,147,116
+air force museum ,42,2,17,26,33,40,147,0,48
+khasi hills,96,48,72,77,61,93,116,48,0

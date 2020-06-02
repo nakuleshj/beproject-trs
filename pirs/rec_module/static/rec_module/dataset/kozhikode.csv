@@ -1,0 +1,10 @@
+activity_name,backwaters in kozhikode,kozhippara falls,thusharagiri waterfall,thikkoti lighthouse,beypore,kakkayam,kozhikode beach,kappad beach,peruvannamuzhi dam
+backwaters in kozhikode,0,109,90,59,17,93,4,27,93
+kozhippara falls,109,0,86,167,127,27,120,132,147
+thusharagiri waterfall,90,86,0,141,111,72,98,99,92
+thikkoti lighthouse,59,167,141,0,85,84,67,33,66
+beypore,17,127,111,85,0,104,22,54,104
+kakkayam,93,27,72,84,104,0,103,81,35
+kozhikode beach,4,120,98,67,22,103,0,25,87
+kappad beach,27,132,99,33,54,81,25,0,80
+peruvannamuzhi dam,93,147,92,66,104,35,87,80,0

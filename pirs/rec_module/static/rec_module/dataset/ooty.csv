@@ -1,0 +1,10 @@
+activity_name,mudumalai national park,stone house,pykara lake,emerald lake,nilgiri mountain railway,ooty lake,dobbabetta peak,deer park,catherine falls
+mudumalai national park,0,93,103,79,91,77,109,91,163
+stone house,93,0,44,10,9,12,18,11,72
+pykara lake,103,44,0,42,42,40,64,44,120
+emerald lake,79,10,42,0,2,2,25,6,80
+nilgiri mountain railway,91,9,42,2,0,8,24,8,79
+ooty lake,77,12,40,2,8,0,25,5,80
+dobbabetta peak,109,18,64,25,24,25,0,27,68
+deer park,91,11,44,6,8,5,27,0,82
+catherine falls,163,72,120,80,79,80,68,82,0

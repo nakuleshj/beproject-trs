@@ -1,0 +1,8 @@
+activity_name,shanti stupa,stok palace and museum ,spituk gompa,pangong lake,nubra valley,tso moriri lake,alchi monastery
+shanti stupa,0,34,18,207,296,338,89
+stok palace and museum ,34,0,27,197,320,328,99
+spituk gompa,18,27,0,201,308,332,75
+pangong lake,207,197,201,0,328,350,272
+nubra valley,296,320,308,328,0,525,378
+tso moriri lake,338,328,332,350,525,0,401
+alchi monastery,89,99,75,272,378,401,0

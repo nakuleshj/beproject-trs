@@ -1,0 +1,8 @@
+activity_name,dumas beach,jagdish chandra bose aquarium,swaminarayan temple,iskcon temple,sardar patel museum ,surat castle,amaazia waterpark
+dumas beach,0,3,34,38,33,31,38
+jagdish chandra bose aquarium,3,0,33,37,32,30,37
+swaminarayan temple,34,33,0,22,14,13,11
+iskcon temple,38,37,22,0,14,14,28
+sardar patel museum ,33,32,14,14,0,1,15
+surat castle,31,30,13,14,1,0,15
+amaazia waterpark,38,37,11,28,15,15,0
